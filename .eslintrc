@@ -1,0 +1,22 @@
+{
+  "env": {
+    "browser": true,
+    "jasmine": true,
+    "es6": true,
+    "node": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2017,
+    "sourceType": "module"
+  },
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": "error",
+    "no-console": 0
+  },
+  "extends": ["eslint:recommended", "plugin:prettier/recommended"],
+  "globals": {
+    "_": true,
+    "testForNativeMethods": true
+  }
+}
